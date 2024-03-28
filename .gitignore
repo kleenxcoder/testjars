@@ -1,24 +1,73 @@
-# Compiled class file
-*.class
+### Common ###
+**/bin/**
+**/log/**
+**/.sonarlint/**
+**/.metadata/**
+**/HELP.md
 
-# Log file
-*.log
+### Resources ###
+**/resources/inbound/**
+**/resources/files/**
 
-# BlueJ files
-*.ctxt
+### Logs ###
+**/*.log
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+### Java ###
+**/target/
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+### JavaScript ###
+**/node_modules/**
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+### STS ###
+**/.apt_generated
+**/.classpath
+**/.factorypath
+**/.project
+**/.settings
+**/.springBeans
+**/.sts4-cache
+
+### IntelliJ IDEA ###
+**/.idea
+**/*.iws
+**/*.iml
+**/*.ipr
+
+### NetBeans ###
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
+**/build/
+
+### VS Code ###
+**/.vscode/
+
+### Maven ####
+release.properties
+**/m2/
+**/.mvn/wrapper
+**/.flattened-pom.xml
+#### release plugin ####
+**/*.xml.next
+**/*.xml.releaseBackup
+**/*.xml.tag
+#### versions-maven-plugin ####
+**/pom.xml.versionsBackup
+
+### others ###
+**/.jpb/
+
+### Visual Studio ###
+**/.vs
+**/*.csproj.user
+**/bin
+**/obj
+**/packages
+
+### MS Office ###
+**/~$*.*
+
+### Database Temp ###
+**/*.db
